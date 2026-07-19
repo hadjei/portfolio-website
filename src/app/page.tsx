@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, BookOpen, Cpu, Globe, MessageSquare, ArrowUpRight, GraduationCap, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -66,9 +67,12 @@ export default function Home() {
           {personalInfo.avatarUrl && (
             <div className="shrink-0 relative">
               <div className="absolute inset-0 bg-accent-gold/20 rounded-3xl rotate-6 scale-105 blur-lg"></div>
-              <img
+              <Image
                 src={personalInfo.avatarUrl}
                 alt={personalInfo.fullName}
+                width={400}
+                height={500}
+                priority
                 className="relative w-56 h-72 sm:w-64 sm:h-80 object-cover rounded-3xl shadow-2xl border-4 border-[var(--card-bg)] z-10"
               />
             </div>
