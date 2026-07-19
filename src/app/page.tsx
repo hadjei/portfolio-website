@@ -19,8 +19,8 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 flex flex-col justify-center border-b border-[var(--border-color)]">
-          <div className="max-w-3xl">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 flex flex-col lg:flex-row items-center gap-12 border-b border-[var(--border-color)]">
+          <div className="flex-1 max-w-2xl">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-50 dark:bg-amber-950/20 text-accent-gold border border-accent-gold/25 mb-6">
               <GraduationCap className="w-3.5 h-3.5" />
               M.S. Electrical & Computer Engineering Candidate
@@ -63,6 +63,16 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          {personalInfo.avatarUrl && (
+            <div className="shrink-0 relative">
+              <div className="absolute inset-0 bg-accent-gold/20 rounded-3xl rotate-6 scale-105 blur-lg"></div>
+              <img
+                src={personalInfo.avatarUrl}
+                alt={personalInfo.fullName}
+                className="relative w-56 h-72 sm:w-64 sm:h-80 object-cover rounded-3xl shadow-2xl border-4 border-[var(--card-bg)] z-10"
+              />
+            </div>
+          )}
         </section>
 
         {/* Research Vision Overview */}

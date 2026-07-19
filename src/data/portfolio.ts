@@ -106,6 +106,7 @@ export const portfolioData: PortfolioData = {
     currentStatus: "M.S. Student in Electrical and Computer Engineering @ CMU-Africa | Mastercard Foundation Scholar Alumni",
     introduction: "I am a graduate electrical and computer engineer specializing in developing intelligent, sustainable technology solutions. My research and development interests span wireless communication systems, Internet of Things (IoT), and embedded hardware design, particularly focused on high-impact applications in healthcare, environmental sensing, and agricultural technology.",
     cvUrl: "https://drive.google.com/file/d/1c3LcY11bEq5cPLRcuUSrula1EsbuSKLe/view?usp=sharing",
+    avatarUrl: "/images/profile.jpg",
     contacts: {
       email: "adjeihafiz2@gmail.com",
       secondaryEmail: "hafiz.adjei@alumni.ashesi.edu.gh",
