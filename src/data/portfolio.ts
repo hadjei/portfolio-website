@@ -388,7 +388,7 @@ export const portfolioData: PortfolioData = {
       period: "2024 - 2026",
       details: "Focusing on embedded hardware, low-power IoT networks, wireless systems, and edge intelligence.",
       courses: ["Advanced Embedded Systems", "Wireless Communication Networks", "Machine Learning at the Edge", "Signal Processing"],
-      awards: ["CMU-Africa Graduate Fellowship", "Mastercard Foundation Graduate Affiliate"]
+      awards: ["Mastercard Foundation Graduate Affiliate"]
     },
     {
       degree: "B.S. in Electrical and Electronic Engineering",

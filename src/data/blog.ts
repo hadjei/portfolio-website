@@ -37,8 +37,6 @@ Rwanda is a testament to digital acceleration. Being physically present at CMU's
 Over the next two years, my goal is to deepen my knowledge in:
 *   **Edge-Native Computing**: Deploying quantized neural networks to microcontrollers.
 *   **Sub-GHz Communications**: Designing low-cost telemetry arrays using LoRa mesh networks.
-
-I am deeply grateful for the CMU-Africa Graduate Fellowship, which makes this journey possible.
 `
   },
   {

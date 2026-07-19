@@ -12,18 +12,11 @@ interface TimelineItem {
 
 const timelineData: TimelineItem[] = [
   {
-    year: "2027",
+    year: "2026",
     title: "Master of Science in ECE",
     subtitle: "Carnegie Mellon University Africa",
-    description: "Expected graduation with specialization in Edge AI, IoT systems, and Advanced Embedded Software.",
+    description: "Graduated with specialization in Edge AI, IoT systems, and Advanced Embedded Software.",
     iconType: "education"
-  },
-  {
-    year: "2025",
-    title: "CMU-Africa Graduate Fellowship",
-    subtitle: "Carnegie Mellon University Africa",
-    description: "Awarded graduate fellowship for MS ECE study in Kigali, Rwanda.",
-    iconType: "achievement"
   },
   {
     year: "2024",
