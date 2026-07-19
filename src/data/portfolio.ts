@@ -385,7 +385,7 @@ export const portfolioData: PortfolioData = {
       degree: "M.S. in Electrical and Computer Engineering",
       institution: "Carnegie Mellon University Africa",
       location: "Kigali, Rwanda",
-      period: "2024 - 2026",
+      period: "2025 - 2026",
       details: "Focusing on embedded hardware, low-power IoT networks, wireless systems, and edge intelligence.",
       courses: ["Advanced Embedded Systems", "Wireless Communication Networks", "Machine Learning at the Edge", "Signal Processing"],
       awards: ["Mastercard Foundation Graduate Affiliate"]
