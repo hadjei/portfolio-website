@@ -282,7 +282,6 @@ export const portfolioData: PortfolioData = {
       year: 2024,
       type: "peer-reviewed",
       link: "https://journal.ashesi.edu.gh/index.php/seed/article/view/95",
-      doi: "10.5281/zenodo.xxxxxx", // Sample
       abstract: "This paper presents a comprehensive study on the terminal characteristics and speed control of a shunt DC motor modeled using MATLAB and Simulink. Unlike standard machine blocks, this study outlines step-by-step custom equations representing magnetic saturation, field winding behaviors, and armature resistance. The results validate speed-torque characteristics and evaluate voltage and field flux speed control strategies under dynamic mechanical loads.",
       bibtex: `@article{baraka2024shunt,\n  title={Terminal Characteristics Studies of a MATLAB Simulink-Based Model of Shunt DC Motor},\n  author={Baraka, Jonathan and Amosah, Kofi and Aho, Enoch and Adjei, Hafiz},\n  journal={Science Engineering Entrepreneurship Design (SEED) Journal},\n  volume={2},\n  number={2},\n  year={2024},\n  publisher={Ashesi University}\n}`
     }
