@@ -129,12 +129,12 @@ export const portfolioData: PortfolioData = {
         name: "Wireless Communication & Edge Networks",
         description: "Developing robust data transmission architectures in remote areas where traditional grid and cellular networks are unavailable. Exploring mesh topologies, LoRaWAN, and energy-harvesting communications.",
         methodologies: ["Link budget analysis", "RF propagation modeling", "Sub-GHz protocols"]
-      },
-      {
-        name: "Language Tech & Evaluation for Low-Resource Languages",
-        description: "Applying machine learning benchmarks to low-resource speech technologies. Collaborating on evaluation strategies for automatic speech recognition (ASR) systems representing diverse African languages.",
-        methodologies: ["Native speaker evaluation", "Acoustic model fine-tuning", "Cross-lingual speech benchmarking"]
       }
+      // {
+      //   name: "Language Tech & Evaluation for Low-Resource Languages",
+      //   description: "Applying machine learning benchmarks to low-resource speech technologies. Collaborating on evaluation strategies for automatic speech recognition (ASR) systems representing diverse African languages.",
+      //   methodologies: ["Native speaker evaluation", "Acoustic model fine-tuning", "Cross-lingual speech benchmarking"]
+      // }
     ],
     phdFocus: "For my future PhD direction, I aim to explore self-sustaining, intelligent edge devices. Specifically, I am interested in how energy-harvesting IoT nodes can run lightweight, locally-trained machine learning models to perform complex sensing and diagnostic tasks in real-time, completely decoupled from cloud servers."
   },
