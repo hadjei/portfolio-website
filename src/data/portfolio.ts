@@ -13,6 +13,7 @@ export interface Project {
   impact: string;
   github?: string;
   demo?: string;
+  paper?: string;
   image?: string;
   featured: boolean;
 }
@@ -195,6 +196,8 @@ export const portfolioData: PortfolioData = {
       challenges: "Navigating within greenhouse rows and maintaining reliable wireless transmission in an agricultural environment.",
       results: "Successfully collected real-time data on environmental factors and displayed it on a remote dashboard.",
       impact: "Helped farmers make informed decisions to improve crop yield and environmental control.",
+      demo: "https://www.youtube.com/watch?v=Ug9EQ7rXyCs",
+      paper: "https://air.ashesi.edu.gh/items/10ec350f-cd41-4113-be1b-aa61865ad62a",
       featured: true
     },
     {

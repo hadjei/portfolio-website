@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
+import { ArrowUpRight, Github, ExternalLink, FileText } from "lucide-react";
 import { Project } from "@/data/portfolio";
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -67,6 +67,17 @@ export default function ProjectCard({ project }: { project: Project }) {
           </Link>
 
           <div className="flex items-center space-x-3">
+            {project.paper && (
+              <a
+                href={project.paper}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--muted-text)] hover:text-[var(--foreground)] transition-colors duration-200"
+                title="Read Paper"
+              >
+                <FileText className="w-4 h-4" />
+              </a>
+            )}
             {project.github && (
               <a
                 href={project.github}
