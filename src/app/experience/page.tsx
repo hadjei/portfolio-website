@@ -32,7 +32,8 @@ export default function ExperiencePage() {
           </div>
           <a
             href={personalInfo.cvUrl}
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-4 py-2.5 rounded-lg border border-[var(--border-color)] bg-[var(--card-bg)] hover:bg-zinc-50 dark:hover:bg-zinc-800/40 text-xs font-semibold text-[var(--foreground)] gap-2 transition-all duration-200 shrink-0 self-start sm:self-center shadow-sm"
           >
             <Download className="w-4 h-4" />

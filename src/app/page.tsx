@@ -47,7 +47,8 @@ export default function Home() {
               </Link>
               <a
                 href={personalInfo.cvUrl}
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-5 py-3 rounded-lg border border-[var(--border-color)] bg-[var(--card-bg)] hover:bg-zinc-50 dark:hover:bg-zinc-800/40 text-sm font-semibold text-[var(--foreground)] gap-2 transition-colors duration-200"
               >
                 <Download className="w-4 h-4" />

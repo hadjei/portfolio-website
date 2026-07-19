@@ -151,7 +151,8 @@ export default function About() {
 
               <a
                 href={personalInfo.cvUrl}
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center py-2.5 rounded-lg border border-[var(--border-color)] bg-[var(--background)] hover:bg-zinc-50 dark:hover:bg-zinc-800/40 text-xs font-semibold text-[var(--foreground)] gap-2 transition-all duration-200"
               >
                 Download Full CV (PDF)
