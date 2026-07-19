@@ -95,13 +95,22 @@ export default function Research() {
           </h2>
           <div className="prose-academic text-sm sm:text-base text-[var(--muted-text)] leading-relaxed space-y-4">
             <p>
-              For my doctoral research, I seek to investigate the co-design of energy-harvesting hardware and lightweight machine learning models. Standard IoT architectures rely heavily on battery power and cellular connection. However, in regions where power grids fail and cellular infrastructure is weak, these systems are unsustainable.
+              My long-term research goal is to develop intelligent, energy-efficient cyber-physical systems that can operate reliably in resource-constrained and infrastructure-limited environments. Building on my experience in embedded systems, machine learning, IoT architectures, and electrical power systems, I am particularly interested in the co-design of ultra-low-power hardware and edge AI algorithms for autonomous sensing and decision-making.
             </p>
             <p>
-              I want to answer the question: <strong className="text-[var(--foreground)] font-semibold">How can we model and build sensor nodes that extract micro-watts of ambient energy (solar, thermal, or kinetic) to run locally-optimized ML classifiers while transmitting sparse, high-value alerts over sub-GHz wireless mesh topologies?</strong>
+              For my doctoral research, I aim to investigate how energy-harvesting sensor platforms can integrate lightweight machine learning models to enable sustainable, always-on monitoring without dependence on conventional power infrastructure. While many current IoT solutions rely on batteries, cloud connectivity, and stable communication networks, such assumptions often fail in rural, remote, and developing regions.
             </p>
             <p>
-              I hope to develop mathematical models of motor transients, signal propagation, and hardware power states, and validate these models through physical prototypes. I am highly motivated by interdisciplinary applications, such as automatic power transfer systems (micro-grids) and local dialect speech interfaces.
+              A central question that motivates my research is:
+            </p>
+            <p className="text-[var(--foreground)] font-semibold my-2">
+              "How can intelligent edge devices harvest ambient energy, perform local AI inference, and communicate only critical information through low-power wireless networks while maintaining long-term operational reliability?"
+            </p>
+            <p>
+              To address this challenge, I intend to explore the intersection of embedded machine learning, wireless sensor networks, energy harvesting, and power-aware system design. My research will focus on developing mathematical and computational models that capture energy availability, hardware operating states, communication dynamics, and machine learning performance under severe resource constraints. These models will then be validated through the design and deployment of real-world prototypes.
+            </p>
+            <p>
+              Beyond fundamental research, I am motivated by applications that directly address societal challenges, including smart energy systems, micro-grid monitoring, predictive maintenance of electrical infrastructure, precision agriculture, environmental monitoring, and multilingual voice-based interfaces for underserved communities.
             </p>
           </div>
         </section>
@@ -113,23 +122,29 @@ export default function Research() {
             Theoretical & Empirical Methodologies
           </h2>
           <p className="text-sm text-[var(--muted-text)] leading-relaxed">
-            In my research, I leverage a balanced mix of computer simulations, hardware prototyping, and human-in-the-loop evaluations:
+            My research philosophy combines rigorous analytical modeling with experimental validation and practical deployment.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-[var(--muted-text)]">
             <div className="bg-[var(--card-bg)] border border-[var(--card-border)] p-4 rounded-lg">
-              <h4 className="font-bold text-[var(--foreground)] mb-1">Analytical & Computer Simulations</h4>
-              <p className="text-xs">Using MATLAB, Simulink, and CAD Electrical simulators to model transient voltages, electrical machine behaviors, and load balancing schemas before deployment.</p>
+              <h4 className="font-bold text-[var(--foreground)] mb-1">Analytical Modeling & Simulation</h4>
+              <p className="text-xs">I utilize MATLAB, Simulink, and related engineering simulation environments to model electrical systems, energy harvesting mechanisms, wireless communication behavior, and control strategies. These tools enable the investigation of system performance, power consumption, reliability, and scalability prior to physical implementation.</p>
             </div>
             <div className="bg-[var(--card-bg)] border border-[var(--card-border)] p-4 rounded-lg">
-              <h4 className="font-bold text-[var(--foreground)] mb-1">Empirical Hardware Prototyping</h4>
-              <p className="text-xs">Wiring breadboard prototypes, soldering PCB architectures, measuring signal timings with logic analyzers, and interfacing components via SPI/I2C protocols.</p>
+              <h4 className="font-bold text-[var(--foreground)] mb-1">Embedded Systems & Hardware Prototyping</h4>
+              <p className="text-xs">I design and develop embedded platforms using microcontrollers, sensors, and wireless communication modules. My approach includes PCB design, hardware integration, firmware development, and low-level interfacing through protocols such as SPI, I²C, UART, and CAN. Experimental evaluation is conducted using oscilloscopes, logic analyzers, and power-measurement instrumentation to characterize system behavior under realistic operating conditions.</p>
             </div>
             <div className="bg-[var(--card-bg)] border border-[var(--card-border)] p-4 rounded-lg">
-              <h4 className="font-bold text-[var(--foreground)] mb-1">Field Telemetry Modeling</h4>
-              <p className="text-xs">Designing antenna placement, testing sub-GHz wireless link budgets, and calculating path loss in vegetated or rural terrains.</p>
+              <h4 className="font-bold text-[var(--foreground)] mb-1">Edge AI & Intelligent Sensing</h4>
+              <p className="text-xs">I am interested in deploying lightweight machine learning models directly on constrained devices, enabling local inference with minimal energy consumption. This involves model optimization, feature engineering, quantization techniques, and performance evaluation across varying computational and energy budgets.</p>
             </div>
-
+            <div className="bg-[var(--card-bg)] border border-[var(--card-border)] p-4 rounded-lg">
+              <h4 className="font-bold text-[var(--foreground)] mb-1">Field Deployment & Wireless Telemetry</h4>
+              <p className="text-xs">I evaluate communication performance through real-world testing of wireless sensor networks, including sub-GHz and low-power mesh topologies. This work involves link-budget analysis, propagation modeling, antenna optimization, and network reliability assessment in rural and challenging environments.</p>
+            </div>
           </div>
+          <p className="text-sm text-[var(--muted-text)] leading-relaxed mt-4">
+            By integrating electrical engineering, embedded intelligence, and sustainable computing, I aspire to contribute to the development of resilient technologies that expand access to intelligent infrastructure in regions where conventional solutions remain impractical.
+          </p>
         </section>
       </main>
 
