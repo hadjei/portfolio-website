@@ -128,10 +128,7 @@ export default function Research() {
               <h4 className="font-bold text-[var(--foreground)] mb-1">Field Telemetry Modeling</h4>
               <p className="text-xs">Designing antenna placement, testing sub-GHz wireless link budgets, and calculating path loss in vegetated or rural terrains.</p>
             </div>
-            <div className="bg-[var(--card-bg)] border border-[var(--card-border)] p-4 rounded-lg">
-              <h4 className="font-bold text-[var(--foreground)] mb-1">Acoustic & Speech Evaluation</h4>
-              <p className="text-xs">Performing error analysis, creating phone mapping baselines, and conducting manual native-speaker transcript reviews to fine-tune low-resource speech datasets.</p>
-            </div>
+
           </div>
         </section>
       </main>
