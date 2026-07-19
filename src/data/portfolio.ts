@@ -289,50 +289,62 @@ export const portfolioData: PortfolioData = {
   ],
   experiences: [
     {
-      role: "Graduate Researcher & ECE Student",
-      company: "Carnegie Mellon University Africa",
+      role: "Research Associate",
+      company: "KCRC / CMU Africa",
       location: "Kigali, Rwanda",
-      period: "2025 - Present",
+      period: "May 2026 - Present",
       type: "research",
       highlights: [
-        "Pursuing Master of Science in Electrical and Computer Engineering with a focus on advanced IoT networks, system design, and AI-enabled hardware.",
-        "Exploring low-power sensing nodes and RF propagation models for rural wireless technologies."
+        "Integrated BAE Systems/A123 LiFePO4 battery modules (736 Wh, 40V, 96-cell) with a Raspberry Pi monitoring system by reverse-engineering a proprietary 5V TTL UART protocol from 2008-era documentation",
+        "Developed a full-stack BMS monitoring system comprising a Python serial communication library, Flask REST API, and a real-time web dashboard with time-series charts, per-module filtering, and historical data logging",
+        "Implemented multi-module daisy-chain addressing and wired-OR RX bus to poll 3 battery modules simultaneously with CRC-8 validated packets"
       ]
     },
     {
-      role: "Teaching Assistant / Peer Mentor",
-      company: "Ashesi University",
-      location: "Berekuso, Ghana",
-      period: "2023 - 2024",
-      type: "teaching",
-      highlights: [
-        "Assisted in instructing undergraduate laboratories in Digital Systems Design, Microprocessor Interfacing, and Control Systems.",
-        "Guided student groups in building Proteus schematics, discrete IC wiring, and debugging C-based microcontroller code.",
-        "Mentored incoming Mastercard Foundation Scholars, aiding their transition into engineering rigor."
-      ]
-    },
-    {
-      role: "Engineering Intern (Electrical Systems)",
-      company: "GRIDCo / Electricity Company of Ghana (ECG) Partner",
-      location: "Accra, Ghana",
-      period: "Summer 2023",
+      role: "Student IT Support",
+      company: "Carnegie Mellon University Africa",
+      location: "Kigali, Rwanda",
+      period: "Sept 2025 - May 2026",
       type: "industry",
       highlights: [
-        "Assisted in simulating load-balancing schemas for secondary distribution transformers under peak residential demand.",
-        "Drafted CAD schematics for automatic changeover safety locks implemented in regional sub-stations.",
-        "Participated in field inspections of sub-station busbars and industrial metering installations."
+        "Delivered real-time AV technical support during lectures, academic meetings, and large-scale university events, maintaining near-zero downtime for 100+ faculty and students",
+        "Assisted network and server engineers with LAN administration, fault diagnosis, and data-centre operations, gaining enterprise-level exposure to IT infrastructure",
+        "Resolved end-user hardware and software incidents, improving IT ticket closure rate and user satisfaction"
       ]
     },
     {
-      role: "Student Leadership & Mastercard Foundation Ambassador",
-      company: "Mastercard Foundation Scholars Program",
-      location: "Ashesi University, Ghana",
-      period: "2020 - 2024",
-      type: "leadership",
+      role: "Teaching Assistant",
+      company: "Ashesi University",
+      location: "Berekusu, Ghana",
+      period: "Sept 2024 - May 2025",
+      type: "teaching",
       highlights: [
-        "Organized community outreach projects focused on introducing basic STEM skills to local high school students in Berekuso.",
-        "Represented Ashesi Scholars at Mastercard Foundation regional summits, advocating for sustainable engineering education.",
-        "Led campus peer tutoring circles in introductory mathematics, circuits, and programming."
+        "Organised and delivered laboratory sessions and tutorials for undergraduate engineering courses, directly supporting improved student performance",
+        "Provided AV and classroom technical support to faculty, ensuring seamless course delivery",
+        "Collaborated with course instructors to identify academic and behavioural challenges and propose targeted interventions"
+      ]
+    },
+    {
+      role: "Electrical Technician Intern",
+      company: "Northern Electricity Distribution Company",
+      location: "Tamale, Ghana",
+      period: "July 2023 - Aug 2023",
+      type: "industry",
+      highlights: [
+        "Executed service-drop installations and electricity meter deployments for 500+ customers, expanding grid access across northern Ghana",
+        "Conducted on-site customer education on safe meter operation, improving adoption and reducing support calls",
+        "Verified monthly billing data against meter-reader records to ensure billing accuracy and reduce revenue leakage"
+      ]
+    },
+    {
+      role: "Research Intern",
+      company: "Think Education",
+      location: "Tamale, Ghana",
+      period: "July 2022 - Aug 2022",
+      type: "research",
+      highlights: [
+        "Designed and populated a performance database for 20+ low-cost private schools, enabling data-driven benchmarking",
+        "Analysed school administration, management, and operations; produced structured reports with actionable improvement recommendations"
       ]
     }
   ],
