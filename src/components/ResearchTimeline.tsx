@@ -20,13 +20,6 @@ const timelineData: TimelineItem[] = [
   },
   {
     year: "2025",
-    title: "WAXALNet Speech AI Research",
-    subtitle: "CMU-Africa / LyngualLabs Collaboration",
-    description: "Supported benchmarking and native evaluations of low-resource African language speech recognition models.",
-    iconType: "research"
-  },
-  {
-    year: "2025",
     title: "CMU-Africa Graduate Fellowship",
     subtitle: "Carnegie Mellon University Africa",
     description: "Awarded graduate fellowship for MS ECE study in Kigali, Rwanda.",

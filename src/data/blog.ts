@@ -10,41 +10,7 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
-  {
-    slug: "waxalnet-benchmark-evaluation",
-    title: "Behind the WAXALNet Benchmark: Native Speaker Evaluations for Low-Resource Speech AI",
-    excerpt: "Exploring the challenges and methodologies of verifying speech-to-text models across 19 low-resource African languages.",
-    date: "July 15, 2026",
-    category: "Speech AI",
-    readingTime: "5 min read",
-    published: true,
-    content: `
-Automatic Speech Recognition (ASR) technology has made massive leaps forward. However, low-resource languages—especially those in Sub-Saharan Africa—remain largely excluded. The WAXAL ASR Benchmark was initiated to address this gap. 
 
-In this note, I discuss my contributions as a native evaluator for the WAXALNet models, focusing on the crucial role of human-in-the-loop evaluations.
-
-### The Problem: Beyond Word Error Rate (WER)
-
-When evaluating models like Wav2Vec 2.0 fine-tuned on African corpora, relying purely on automated Word Error Rate (WER) metrics can be misleading. Here's why:
-
-1. **Orthographic Ambiguity**: Many low-resource languages lack a singular standardized written script. A word can be spelled differently by different writers while sounding phonetically identical.
-2. **Dialectal Variation**: Regional dialects introduce phoneme changes. An automated script evaluator will mark these variations as errors, even when the transcription is fully correct to a speaker of that dialect.
-
-### The Human-in-the-Loop Methodology
-
-Our evaluation workflow focused on manual phonetic validation:
-
-*   **Audio-Text Alignment**: Listening to randomized audio samples and mapping them to generated outputs.
-*   **Phonetic Phone Mapping**: Analyzing where the acoustic models substituted key phonemes (e.g., confusing similar vocalized glottals).
-*   **Error Taxonomy**: Grouping errors into semantic (changes meaning), syntactic (incorrect grammar, correct meaning), and orthographic (spelling variations).
-
-### Key Takeaways
-
-Native evaluations showed that while automated WER was high, the model's *semantic comprehension* was significantly better. Over 30% of marked errors were harmless spelling variations. This highlights the urgent need for flexible, dialect-aware evaluation pipelines in low-resource speech research.
-
-As I progress through my Master's at CMU-Africa, I aim to expand these evaluations to develop lightweight edge-native speech interfaces.
-`
-  },
   {
     slug: "cmu-africa-journey-ece",
     title: "My Transition to Graduate Studies at Carnegie Mellon University Africa",

@@ -155,22 +155,7 @@ export const portfolioData: PortfolioData = {
       github: "https://github.com/hafizadjei/shunt-dc-motor-simulink",
       featured: true
     },
-    {
-      slug: "waxalnet-asr-benchmark",
-      title: "WAXALNet Benchmark: Native Speaker Evaluation",
-      subtitle: "Low-Resource African Language Speech Recognition",
-      category: "Speech AI & Linguistics",
-      period: "2024 - 2025",
-      problem: "Modern Automatic Speech Recognition (ASR) systems perform poorly on African languages due to a lack of clean training datasets, dialectal variations, and native verification benchmarks.",
-      motivation: "Developing inclusive speech interfaces is essential to enable technology access in health, agriculture, and literacy for millions of non-English speakers across Sub-Saharan Africa.",
-      methodology: "Participated as a language expert and native evaluator for the WAXAL ASR Benchmark. Formulated testing criteria, performed manual evaluations of generated transcriptions, identified phonetic biases in acoustic models, and assisted in benchmarking models across 19 target languages.",
-      techStack: ["Python", "Hugging Face", "Wav2Vec 2.0", "Speech Benchmarking"],
-      challenges: "Aligning phonetic nuances in oral African languages with written representations, and standardizing transcription guidelines for low-resource languages lacking official standardized orthography.",
-      results: "Helped validate the WAXALNet models, which are fine-tuned on the WAXAL corpus. The contribution helped establish error-analysis baselines, improving word error rate (WER) understanding across West African languages.",
-      impact: "Directly acknowledged in the WAXALNet publication and benchmarking repository. Collaborated with researchers from Carnegie Mellon University Africa and LyngualLabs.",
-      demo: "https://huggingface.co/models?search=waxal",
-      featured: true
-    },
+
     {
       slug: "twelve-hour-digital-clock",
       title: "Hardware Design of a 12-Hour Digital Clock",
@@ -201,6 +186,96 @@ export const portfolioData: PortfolioData = {
       results: "Simulation confirmed successful phase transfer in less than 1.5 seconds upon main grid failure, with thermal overload protection shutting down the transfer in case of load imbalances.",
       impact: "Presented as a core industrial solution proposal for Ashesi University campus infrastructure. Published co-authored study details in SEED Journal.",
       featured: false
+    },
+    {
+      slug: "greenhouse-monitoring-robot",
+      title: "Greenhouse Monitoring System Using a Ground Robot",
+      subtitle: "Embedded Systems and IoT in Sustainable Agriculture",
+      category: "Robotics & IoT",
+      period: "N/A",
+      problem: "Need for real-time data on temperature, humidity, CO₂, and light intensity inside greenhouse rows to improve crop yield.",
+      motivation: "To demonstrate the application of embedded systems and IoT in sustainable agriculture.",
+      methodology: "Designed and implemented a ground robot with a custom chassis, powered by 18650 lithium-ion batteries. Integrated line-following and joystick obstacle-avoidance for navigation. Used environmental sensors and ESP-NOW protocol for wireless data transmission. Developed a PHP and HTML-based dashboard for remote data visualization.",
+      techStack: ["ESP-NOW", "Robotics", "PHP", "HTML", "IoT Sensors"],
+      challenges: "Navigating within greenhouse rows and maintaining reliable wireless transmission in an agricultural environment.",
+      results: "Successfully collected real-time data on environmental factors and displayed it on a remote dashboard.",
+      impact: "Helped farmers make informed decisions to improve crop yield and environmental control.",
+      featured: true
+    },
+    {
+      slug: "greenhouse-lora-monitoring",
+      title: "Environmental Conditions Monitoring System for Greenhouses Using LoRa",
+      subtitle: "Cost-Effective and Energy-Efficient IoT System",
+      category: "Wireless Communication & IoT",
+      period: "N/A",
+      problem: "Erratic weather conditions and inadequate infrastructure in rural Africa hinder agricultural productivity.",
+      motivation: "To enhance greenhouse farming in rural areas lacking internet access or reliable power grids.",
+      methodology: "Developed an environmental monitoring system using LoRa technology. Configured a sensor node and a receiving node communicating over a peer-to-peer network for continuous monitoring of temperature and humidity inside greenhouses.",
+      techStack: ["LoRa", "Sensor Networks", "Peer-to-Peer Communication", "IoT"],
+      challenges: "Establishing a reliable, long-range connection without relying on internet or grid power.",
+      results: "Enabled continuous monitoring of greenhouse conditions effectively without internet dependency.",
+      impact: "Tackled the challenge of food security in rural Africa by providing an accessible and efficient monitoring tool.",
+      featured: true
+    },
+    {
+      slug: "digital-modulation-techniques",
+      title: "Comparative Analysis of Digital Modulation Techniques",
+      subtitle: "Signal Processing and Communications Simulation",
+      category: "Telecommunications & Signal Processing",
+      period: "N/A",
+      problem: "Need to evaluate the resilience of various digital modulation schemes against Additive White Gaussian Noise (AWGN).",
+      motivation: "To understand the trade-offs between data rate and noise resilience in digital communication systems.",
+      methodology: "Simulated a digital communication system using MATLAB and Simulink to evaluate BPSK, QPSK, FSK, 16-QAM, and 64-QAM. Analysed bit error rates (BER) against signal-to-noise ratios (SNR) and visualised constellation diagrams.",
+      techStack: ["MATLAB", "Simulink", "Digital Modulation", "Signal Processing"],
+      challenges: "Accurately modeling AWGN and varying noise levels to assess the performance of each modulation scheme.",
+      results: "Highlighted 16-QAM as a strong balance between data rate and noise resilience.",
+      impact: "Provided insights into modulation efficiency in real-world communication systems.",
+      featured: false
+    },
+    {
+      slug: "single-tone-fm-gui",
+      title: "MATLAB Based GUI for Single Tone Frequency Modulation",
+      subtitle: "Interactive Educational Tool for Signals and Systems",
+      category: "Signal Processing Software",
+      period: "N/A",
+      problem: "Visualizing and understanding the impact of modulation index and signal parameters in Frequency Modulation (FM) theory.",
+      motivation: "To create an interactive tool that deepens the understanding of FM transmission and spectral characteristics.",
+      methodology: "Developed a MATLAB-based GUI using the GUIDE toolbox to simulate single-tone FM. Allowed users to input and adjust amplitude and frequency of message and carrier signals, and modulation index. Plotted signals in real time.",
+      techStack: ["MATLAB", "GUIDE", "Frequency Modulation"],
+      challenges: "Ensuring real-time responsiveness and accurate mathematical modeling of the modulated signals.",
+      results: "Produced a user-friendly interface that successfully demonstrated how modulation index influences spectral characteristics.",
+      impact: "Deepened theoretical understanding and provided an effective educational tool for Signals and Systems.",
+      featured: false
+    },
+    {
+      slug: "cart-project-kl25z-freertos",
+      title: "Cart Project Using KL25Z and FreeRTOS",
+      subtitle: "Bluetooth-Controlled Cart with Real-Time Scheduling",
+      category: "Embedded Systems & Robotics",
+      period: "N/A",
+      problem: "Managing multiple sensor inputs and executing precise control logic simultaneously on an embedded platform.",
+      motivation: "To implement a reliable and efficient real-time system using RTOS on microcontroller hardware.",
+      methodology: "Developed a Bluetooth-controlled cart using two KL25Z microcontrollers. Interfaced ultrasonic modules for obstacle detection. Used one microcontroller as the controller unit and the second as the cart's processor. Implemented a hybrid architecture combining FreeRTOS for real-time task scheduling and bare-metal programming.",
+      techStack: ["KL25Z Microcontroller", "FreeRTOS", "Bluetooth", "C/C++", "Sensors"],
+      challenges: "Synchronizing tasks between two microcontrollers and ensuring real-time responsiveness in dynamic environments.",
+      results: "Achieved reliable system performance with accurate control and obstacle detection.",
+      impact: "Demonstrated the capability of FreeRTOS in managing complex, concurrent embedded operations.",
+      featured: false
+    },
+    {
+      slug: "optical-heartbeat-monitor",
+      title: "Optical Heartbeat Monitoring Instrument",
+      subtitle: "Non-Invasive Biomedical Signal Acquisition",
+      category: "Biomedical Engineering & Instrumentation",
+      period: "N/A",
+      problem: "Extracting weak heartbeat signals from optical sensors while filtering out significant DC offset and environmental noise.",
+      motivation: "To design a non-invasive instrument for measuring human heart rate from the fingertip using analog signal conditioning.",
+      methodology: "Designed an instrument using an IR LED and photodiode. Implemented a four-stage system: heartbeat detection, an active high-pass filter (0.72 Hz cutoff) to remove DC offset, and two active low-pass filters/amplifiers (3.38 Hz cutoff, gain of 100 each). Analyzed the circuit via Proteus simulation and oscilloscope.",
+      techStack: ["Analog Circuit Design", "Biomedical Instrumentation", "Proteus", "Signal Filtering"],
+      challenges: "Attenuating high-frequency noise and effectively amplifying the weak heartbeat signal within the target frequency range.",
+      results: "Successfully amplified and filtered the heartbeat signal, measuring a frequency corresponding to approximately 88 BPM, verified via oscilloscope.",
+      impact: "Strengthened foundations in biomedical sensing and analog signal conditioning for IoT-based health monitoring applications.",
+      featured: true
     }
   ],
   publications: [
@@ -215,17 +290,6 @@ export const portfolioData: PortfolioData = {
       doi: "10.5281/zenodo.xxxxxx", // Sample
       abstract: "This paper presents a comprehensive study on the terminal characteristics and speed control of a shunt DC motor modeled using MATLAB and Simulink. Unlike standard machine blocks, this study outlines step-by-step custom equations representing magnetic saturation, field winding behaviors, and armature resistance. The results validate speed-torque characteristics and evaluate voltage and field flux speed control strategies under dynamic mechanical loads.",
       bibtex: `@article{baraka2024shunt,\n  title={Terminal Characteristics Studies of a MATLAB Simulink-Based Model of Shunt DC Motor},\n  author={Baraka, Jonathan and Amosah, Kofi and Aho, Enoch and Adjei, Hafiz},\n  journal={Science Engineering Entrepreneurship Design (SEED) Journal},\n  volume={2},\n  number={2},\n  year={2024},\n  publisher={Ashesi University}\n}`
-    },
-    {
-      id: "waxalnet-asr-2025",
-      title: "WAXALNet: Benchmarking Automatic Speech Recognition for West African Low-Resource Languages",
-      authors: "Carnegie Mellon University Africa Research Team, Native Language Contributors (including Hafiz Adjei)",
-      journalOrVenue: "LyngualLabs & CMU-Africa Technical Reports",
-      year: 2025,
-      type: "evaluation",
-      link: "https://huggingface.co/models?search=waxal",
-      abstract: "This report introduces WAXALNet, a series of speech-to-text models optimized for low-resource languages of West Africa. By training on the WAXAL multi-lingual corpus, the model achieves robust phonetic alignment. This work details the critical evaluation pipeline where native speaker evaluation was utilized to fine-tune acoustic thresholds, validating model outputs against traditional phonetic standards.",
-      bibtex: `@techreport{cmu2025waxalnet,\n  title={WAXALNet: Benchmarking Automatic Speech Recognition for West African Low-Resource Languages},\n  author={CMU-Africa Research Team and Adjei, Hafiz},\n  institution={Carnegie Mellon University Africa},\n  year={2025}\n}`
     }
   ],
   experiences: [
@@ -237,7 +301,6 @@ export const portfolioData: PortfolioData = {
       type: "research",
       highlights: [
         "Pursuing Master of Science in Electrical and Computer Engineering with a focus on advanced IoT networks, system design, and AI-enabled hardware.",
-        "Contributing native evaluation support and linguistic benchmarking for low-resource Speech AI research projects (WAXALNet).",
         "Exploring low-power sensing nodes and RF propagation models for rural wireless technologies."
       ]
     },

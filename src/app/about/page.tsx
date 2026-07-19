@@ -59,7 +59,7 @@ export default function About() {
               </p>
 
               <p>
-                Currently, at CMU-Africa, I am expanding my knowledge into AI-enabled edge systems. I participated as a native evaluator for the WAXALNet Automatic Speech Recognition benchmark, evaluating models for low-resource West African languages to build inclusive interfaces.
+                Currently, at CMU-Africa, I am expanding my knowledge into AI-enabled edge systems.
               </p>
 
               <p>
