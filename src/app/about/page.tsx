@@ -19,15 +19,38 @@ export default function About() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
+    
+    try {
+      const response = await fetch(`https://formsubmit.co/ajax/${contacts.email}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: formState.name,
+          email: formState.email,
+          subject: formState.subject,
+          message: formState.message,
+          _subject: `New Portfolio Message: ${formState.subject}`,
+          _template: "table"
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitMessage("Thank you! Your message has been sent successfully.");
+        setFormState({ name: "", email: "", subject: "", message: "" });
+      } else {
+        setSubmitMessage("Oops! There was a problem sending your message. Please try emailing directly.");
+      }
+    } catch (error) {
+      setSubmitMessage("Oops! There was a problem sending your message. Please try emailing directly.");
+    } finally {
       setIsSubmitting(false);
-      setSubmitMessage("Thank you! Your message has been sent successfully.");
-      setFormState({ name: "", email: "", subject: "", message: "" });
-    }, 1500);
+    }
   };
 
   return (
