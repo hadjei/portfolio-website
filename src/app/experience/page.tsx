@@ -221,6 +221,17 @@ export default function ExperiencePage() {
                   <p className="text-xs text-[var(--muted-text)] mt-1.5 leading-relaxed">
                     {ach.description}
                   </p>
+                  {ach.certificateUrl && (
+                    <a
+                      href={ach.certificateUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 mt-4 text-xs font-semibold text-accent-gold hover:text-accent-gold/80 transition-colors"
+                    >
+                      View Certificate
+                      <Award className="w-3 h-3" />
+                    </a>
+                  )}
                 </div>
               </div>
             ))}

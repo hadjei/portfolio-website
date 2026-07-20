@@ -60,6 +60,7 @@ export interface Achievement {
   issuer: string;
   year: string;
   description: string;
+  certificateUrl?: string;
 }
 
 export interface PortfolioData {
