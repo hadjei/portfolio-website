@@ -397,7 +397,7 @@ export const portfolioData: PortfolioData = {
       period: "2020 - 2024",
       details: "Graduated with Honors. Focused on sustainable technology solutions, digital electronics, and power engineering.",
       courses: ["Digital Systems Design", "Microprocessor Interfacing", "Power Systems Analysis", "Control Systems", "Differential Equations"],
-      awards: ["Mastercard Foundation Scholar Award (Full Academic Scholarship)", "Dean's List Honoree", "SEED Journal Author Recognition"]
+      awards: ["Mastercard Foundation Scholar Award (Full Academic Scholarship)", "Dean's List Honoree"]
     }
   ],
   skills: [
@@ -434,22 +434,22 @@ export const portfolioData: PortfolioData = {
       description: "Fully-funded 4-year scholarship awarded to academically talented students with a proven commitment to community service and leadership in Africa."
     },
     {
-      title: "Carnegie Mellon University Africa Graduate Fellowship",
-      issuer: "Carnegie Mellon University",
-      year: "2025",
-      description: "Fellowship supporting exceptional African engineers in pursuing advanced graduate studies in computing, engineering, and technology."
+      title: "Best Poster Award",
+      issuer: "Carnegie Mellon University Africa Research Showcase",
+      year: "2026",
+      description: "Awarded for outstanding research and scholarly contribution for the paper 'Imaracare: Contact-Free Fetal Heart Rate Monitoring Using Wi-Fi Channel State Information and Deep Learning for Low-Resource Sub-Saharan Africa'."
     },
     {
-      title: "SEED Journal Author Award",
-      issuer: "SEED Editorial Board, Ashesi University",
-      year: "2024",
-      description: "Recognition for co-authoring peer-reviewed student research on Simulink motor modeling in the Science Engineering Entrepreneurship Design Journal."
+      title: "1st Place Winner",
+      issuer: "Health Systems Innovation Lab Hackathon, Harvard University",
+      year: "2026",
+      description: "Won 1st place at the 7th Edition of the Hackathon (Kigali Hub) focusing on 'Building High-Value Health Systems: Leveraging AI'."
     },
     {
-      title: "Ashesi Peer Mentor Award",
-      issuer: "Ashesi Office of Student Affairs",
-      year: "2023",
-      description: "Honored for outstanding guidance, academic tutoring, and peer support to junior students in the Electrical Engineering program."
+      title: "Global Top 20 - Demo Day Finalist",
+      issuer: "Health Systems Innovation Lab, Harvard University",
+      year: "2026",
+      description: "Recognized as a Global Top 20 Finalist (Team Vitalabs) in the Venture Building Program."
     }
   ]
 };
