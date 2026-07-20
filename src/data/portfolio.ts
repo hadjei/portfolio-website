@@ -138,6 +138,22 @@ export const portfolioData: PortfolioData = {
   },
   projects: [
     {
+      slug: "wirelessai",
+      title: "Wireless AI Explorations",
+      subtitle: "Independent Research on Wireless Communication and Deep Learning",
+      category: "Wireless AI & Machine Learning",
+      period: "Current",
+      problem: "Understanding the intersection of modern deep learning and wireless communication systems, such as channel state information and spectrum sensing.",
+      motivation: "To explore theoretical concepts, read state-of-the-art research papers, and independently investigate the potential of applying AI to optimize and model wireless networks.",
+      methodology: "Conducting self-directed study by reviewing academic literature, experimenting with foundational machine learning models, and exploring the integration of AI techniques in signal processing and wireless telemetry.",
+      techStack: ["Deep Learning", "Signal Processing", "Wireless Communication", "Academic Research"],
+      challenges: "Synthesizing complex theoretical formulations from research papers and translating them into practical understanding of AI-driven wireless systems.",
+      results: "Built a solid foundational understanding of AI applications in wireless systems, maintaining an active repository of notes, literature reviews, and explorations.",
+      impact: "Demonstrates proactive, self-motivated learning and deep interest in cutting-edge intersections of hardware, wireless tech, and AI.",
+      github: "https://github.com/hadjei/wirelessai",
+      featured: true
+    },
+    {
       slug: "smart-city-parking",
       title: "Smart City Parking System",
       subtitle: "Edge Computing & IoT Vehicle Detection",
