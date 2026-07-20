@@ -438,19 +438,22 @@ export const portfolioData: PortfolioData = {
       title: "Best Poster Award",
       issuer: "Carnegie Mellon University Africa Research Showcase",
       year: "2026",
-      description: "Awarded for outstanding research and scholarly contribution for the paper 'Imaracare: Contact-Free Fetal Heart Rate Monitoring Using Wi-Fi Channel State Information and Deep Learning for Low-Resource Sub-Saharan Africa'."
+      description: "Awarded for outstanding research and scholarly contribution for the paper 'Imaracare: Contact-Free Fetal Heart Rate Monitoring Using Wi-Fi Channel State Information and Deep Learning for Low-Resource Sub-Saharan Africa'.",
+      certificateUrl: "https://drive.google.com/file/d/1q0huLeFX30xse5wiO9x0fso6T1xslSQ3/view?usp=sharing"
     },
     {
       title: "1st Place Winner",
       issuer: "Health Systems Innovation Lab Hackathon, Harvard University",
       year: "2026",
-      description: "Won 1st place at the 7th Edition of the Hackathon (Kigali Hub) focusing on 'Building High-Value Health Systems: Leveraging AI'."
+      description: "Won 1st place at the 7th Edition of the Hackathon (Kigali Hub) focusing on 'Building High-Value Health Systems: Leveraging AI'.",
+      certificateUrl: "https://drive.google.com/file/d/1U4iHClS_mPohnXwkyAZyDwlBKThzniy4/view?usp=sharing"
     },
     {
       title: "Global Top 20 - Demo Day Finalist",
       issuer: "Health Systems Innovation Lab, Harvard University",
       year: "2026",
-      description: "Recognized as a Global Top 20 Finalist (Team Vitalabs) in the Venture Building Program."
+      description: "Recognized as a Global Top 20 Finalist (Team Vitalabs) in the Venture Building Program.",
+      certificateUrl: "https://drive.google.com/file/d/1eVl8W9nXlLEdSouTsL5rqF_SD-S9PXsl/view?usp=sharing"
     }
   ]
 };
