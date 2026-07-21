@@ -103,9 +103,9 @@ export interface PortfolioData {
 export const portfolioData: PortfolioData = {
   personalInfo: {
     fullName: "Hafiz Adjei",
-    headline: "ECE Graduate Student & Researcher at Carnegie Mellon University Africa",
-    currentStatus: "M.S. Student in Electrical and Computer Engineering @ CMU-Africa | Mastercard Foundation Scholar Alumni",
-    introduction: "I am a graduate electrical and computer engineer specializing in developing intelligent, sustainable technology solutions. My research and development interests span wireless communication systems, Internet of Things (IoT), and embedded hardware design, particularly focused on high-impact applications in healthcare, environmental sensing, and agricultural technology.",
+    headline: "M.S. ECE Graduate & Researcher from Carnegie Mellon University Africa",
+    currentStatus: "M.S. Electrical and Computer Engineering Graduate, CMU-Africa | Mastercard Foundation Scholar Alumni",
+    introduction: "I recently earned my Master's in Electrical and Computer Engineering from Carnegie Mellon University Africa. I specialize in developing intelligent, sustainable technology solutions. My research and development interests span wireless communication systems, Internet of Things (IoT), and embedded hardware design, particularly focused on high-impact applications in healthcare, environmental sensing, and agricultural technology.",
     cvUrl: "https://drive.google.com/file/d/1c3LcY11bEq5cPLRcuUSrula1EsbuSKLe/view?usp=sharing",
     avatarUrl: "/portfolio-website/images/profile.jpg",
     contacts: {

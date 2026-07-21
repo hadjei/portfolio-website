@@ -70,11 +70,11 @@ export default function About() {
 
             <div className="prose-academic text-base text-[var(--muted-text)] leading-relaxed space-y-6">
               <p>
-                My name is <strong className="text-[var(--foreground)] font-semibold">Hafiz Adjei</strong>. I am an electrical and computer engineer currently pursuing my Master’s degree in Electrical and Computer Engineering at <strong className="text-[var(--foreground)] font-semibold">Carnegie Mellon University Africa (CMU-Africa)</strong> in Kigali, Rwanda. My work is focused on creating practical, sustainable hardware and communication systems that address local and global challenges in environmental sensing, smart agriculture, and low-resource speech technology.
+                My name is <strong className="text-[var(--foreground)] font-semibold">Hafiz Adjei</strong>. I recently earned my Master’s degree in Electrical and Computer Engineering from <strong className="text-[var(--foreground)] font-semibold">Carnegie Mellon University Africa (CMU-Africa)</strong> in Kigali, Rwanda. My work is focused on creating practical, sustainable hardware and communication systems that address local and global challenges in environmental sensing, smart agriculture, and low-resource speech technology.
               </p>
 
               <p>
-                Before joining CMU-Africa as a Graduate Fellow, I graduated with Honors from <strong className="text-[var(--foreground)] font-semibold">Ashesi University</strong> in Ghana, where I completed my Bachelor of Science in Electrical and Electronic Engineering. My undergraduate studies were made possible through the <strong className="text-[var(--foreground)] font-semibold">Mastercard Foundation Scholars Program</strong>, which instills a deep sense of ethical leadership and a commitment to utilizing engineering to drive development across the African continent.
+                Before my Master's studies at CMU-Africa, I graduated with Honors from <strong className="text-[var(--foreground)] font-semibold">Ashesi University</strong> in Ghana, where I completed my Bachelor of Science in Electrical and Electronic Engineering. My undergraduate studies were made possible through the <strong className="text-[var(--foreground)] font-semibold">Mastercard Foundation Scholars Program</strong>, which instills a deep sense of ethical leadership and a commitment to utilizing engineering to drive development across the African continent.
               </p>
 
               <p>
@@ -82,7 +82,7 @@ export default function About() {
               </p>
 
               <p>
-                Currently, at CMU-Africa, I am expanding my knowledge into AI-enabled edge systems.
+                During my time at CMU-Africa, I expanded my knowledge into AI-enabled edge systems.
               </p>
 
               <p>
@@ -99,7 +99,7 @@ export default function About() {
                   Hafiz Adjei
                 </h2>
                 <p className="text-xs text-[var(--muted-text)] mt-1 font-medium">
-                  ECE Graduate Student | Researcher
+                  ECE Graduate | Researcher
                 </p>
               </div>
 
