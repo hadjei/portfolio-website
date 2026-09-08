@@ -138,6 +138,22 @@ export const portfolioData: PortfolioData = {
   },
   projects: [
     {
+      slug: "vitalabs-csi",
+      title: "Imaracare: Contact-Free Vital Signs Monitoring",
+      subtitle: "Wi-Fi CSI & Deep Learning for Heart and Respiration Rate Detection",
+      category: "Wireless AI & Machine Learning",
+      period: "2026",
+      problem: "The critical need for low-cost, non-invasive, contact-free continuous monitoring of vital signs in low-resource healthcare settings.",
+      motivation: "To leverage ubiquitous Wi-Fi signals to detect micro-movements (breathing and heartbeat) using Channel State Information (CSI) without requiring wearable physical sensors.",
+      methodology: "Developed a data pipeline to capture Wi-Fi CSI using ESP32 microcontrollers. Applied advanced signal processing (noise removal, subcarrier filtering) to extract amplitude and phase variations. Trained an LSTM deep learning model to accurately estimate heart and respiration rates from the CSI stream.",
+      techStack: ["Wi-Fi CSI", "ESP32", "Python", "Deep Learning (LSTM)", "Signal Processing", "PyTorch"],
+      challenges: "Filtering out environmental noise and distinguishing between macro body movements and micro physiological signals (heartbeats and breathing) within the wireless channel.",
+      results: "Successfully demonstrated contact-free heart and respiration rate monitoring, achieving high accuracy in estimating vital signs using the LSTM model.",
+      impact: "Won the Best Poster Award at the CMU-Africa Research Showcase and secured 1st Place at the Harvard Health Systems Innovation Lab Hackathon.",
+      github: "https://github.com/hadjei/vitaLabs",
+      featured: true
+    },
+    {
       slug: "health-monitoring",
       title: "IoT Remote Patient Monitoring System",
       subtitle: "Real-Time Dual-Core Clinical Vital Signs Telemetry",
