@@ -138,6 +138,22 @@ export const portfolioData: PortfolioData = {
   },
   projects: [
     {
+      slug: "health-monitoring",
+      title: "IoT Remote Patient Monitoring System",
+      subtitle: "Real-Time Dual-Core Clinical Vital Signs Telemetry",
+      category: "Wireless Communication & IoT",
+      period: "Current",
+      problem: "Monitoring continuous physiological parameters (heart rate, SpO2, respiration) remotely with high precision while preventing motion artifacts.",
+      motivation: "To build a robust, clinical-inspired biomedical patient monitoring system using an ESP32 and MAX30102 sensor that streams live telemetry to a dashboard.",
+      methodology: "Utilized dual-wavelength photoplethysmography (PPG) with a dual-core DSP engine on FreeRTOS. Core 1 handles sample-accurate DSP acquisition and filtering (Butterworth bandpass) while Core 0 manages asynchronous Wi-Fi and Firebase Realtime Database TLS transmissions. Built a responsive web dashboard using Chart.js to visualize live vitals.",
+      techStack: ["ESP32", "FreeRTOS", "MAX30102", "C++", "Firebase", "Chart.js", "Digital Signal Processing"],
+      challenges: "Isolating respiration rate from Respiratory-Induced Intensity Variation (RIIV) and preventing dicrotic notch double-counting for heart rate using adaptive refractory periods.",
+      results: "Successfully streamed precise, real-time BPM, SpO2 %, and Respiration Rate metrics over Wi-Fi to a dynamic web dashboard with automatic clinical alerting.",
+      impact: "Demonstrates advanced application of multi-core embedded systems and signal processing for remote healthcare monitoring.",
+      github: "https://github.com/hadjei/health-monitoring",
+      featured: true
+    },
+    {
       slug: "wirelessai",
       title: "Wireless AI Explorations",
       subtitle: "Independent Research on Wireless Communication and Deep Learning",
