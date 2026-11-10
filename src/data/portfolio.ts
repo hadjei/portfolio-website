@@ -370,10 +370,23 @@ export const portfolioData: PortfolioData = {
   ],
   experiences: [
     {
+      role: "Research Associate – IoT & Embedded Systems",
+      company: "Kigali Collaborative Research Centre (CRISPER-IoT)",
+      location: "Kigali, Rwanda",
+      period: "Oct 2026 - Present",
+      type: "research",
+      highlights: [
+        "Architected and deployed an edge vehicular telemetry system on Raspberry Pi 5 integrating 10 Hz GNSS, 6-DoF IMU (MPU-6050 via I2C), and MIPI CSI-2 AI camera (720p @ 25 FPS) for the CRISPER-IoT project (Innovation Fund Denmark)",
+        "Formulated and deployed an in-memory Compress-Before-Detection pipeline using MPEG VCM and Smart ROI video compression (H.265/HEVC) on BDD100K driving datasets, optimizing rate-accuracy trade-offs for edge neural detectors (SSD MobileNet V2)",
+        "Implemented the GreedyGD time-series deduplication algorithm across multi-channel vehicular telemetry streams, achieving a 499x data reduction on 143k records with 11.9x accelerated downstream clustering",
+        "Engineered a real-time gravity-isolation filter on 6-DoF inertial telemetry for dynamic braking and road event detection; built a multithreaded edge streaming service with live HUD, offline caching, and automated cloud sync"
+      ]
+    },
+    {
       role: "Research Associate",
       company: "KCRC / CMU Africa",
       location: "Kigali, Rwanda",
-      period: "May 2026 - Present",
+      period: "May 2026 - Aug 2026",
       type: "research",
       highlights: [
         "Integrated BAE Systems/A123 LiFePO4 battery modules (736 Wh, 40V, 96-cell) with a Raspberry Pi monitoring system by reverse-engineering a proprietary 5V TTL UART protocol from 2008-era documentation",
